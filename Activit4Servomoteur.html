@@ -1,0 +1,123 @@
+﻿<html>
+	
+<head>
+	<title>Activit&eacute; 4 - Servomoteur</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.6.0.345">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #8080FF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		if (top.frames.length == 0)
+		{
+			var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+			top.location.href = "index.html?" + sTopicUrl;
+		}
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+		{
+			top.FrameTOC.SelectTocItem("Activit4Servomoteur");
+		}
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_content">
+		
+<p class="rvps3"><img alt="" style="padding : 1px;" src="lib/NouvelElement25.png"/></p>
+<p class="rvps3"><br/></p>
+<p class="rvps4"><span class="rvts13">ACTIVIT</span><span class="rvts17">Ē</span><span class="rvts13"> 4</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps3"><span class="rvts42">Exercices sur l'utilisation du Servomoteur</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Câbler le servomoteur SG90 sur la carte I/O sur le connecteur servo, - : fil noir (ou marron) , + : fil rouge, Sig : fil orange (ou blanc)</span></p>
+<p class="rvps6"><br/></p>
+<p class="rvps6"><span class="rvts38">Exercice 4A</span></p>
+<p class="rvps6"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">Faire tourner alternativement et en boucle le servomoteur de 180° toutes les 2 secondes.</span></p>
+<p class="rvps6"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts48">Attention</span><span class="rvts26"> : il existe un autre bloc avec la même photo nommé « Rotation du moteur de 360°» ne pas le prendre car ce servomoteur a une amplitude angulaire maximale de 180°.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Réaliser le programme ArduBlock ci-dessous :</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><img alt="" style="padding : 1px;" src="lib/NouvelElement111.png"/></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts48">Attention</span><span class="rvts26"> : saisir des valeurs comprises entre 0° et 180° uniquement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps2"><span class="rvts18">Enregistrer le programme ArduBlock sous le nom Exercice4A_votrenomdegroupe.</span></p>
+<p class="rvps2"><span class="rvts18">Transférer le programme et </span><span class="rvts26">vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps20"><span class="rvts35">Questions à répondre sur copie pour l'Exercice 4A</span><span class="rvts34">.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Q14) En regardant le programme en C généré, identifier toutes les instructions et tous les éléments en langage C, nécessaires au fonctionnement du servomoteur.</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps20"><span class="rvts26">Q15) Expliquer le rôle et le paramétrage des instructions suivantes :</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">a) </span><span class="rvts39">#include</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">b) </span><span class="rvts39">Servo</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">c) </span><span class="rvts39">attach()</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">d) </span><span class="rvts39">write()</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Pour comprendre ces instructions et les commenter, vous pouvez consulter le </span><span class="rvts18">guide de référence</span><span class="rvts26"> du langage Arduino</span><span class="rvts36">.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 4B</span></p>
+<p class="rvps6"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts18">Modifier le programme ArduBlock 4A de telle façon que le servomoteur se déplace vers la position 0° lorsqu'on appuie sur Bouton Poussoir rouge, et qu'il se déplace vers la position 180° lorsqu'on appuie sur Bouton Poussoir vert.</span></p>
+<p class="rvps6"><span class="rvts18">Si Bouton Poussoir rouge est actionné, la LED rouge s'allume pour indiquer que c'est la position 0° qui a été choisie.</span></p>
+<p class="rvps6"><span class="rvts18">Si Bouton Poussoir vert est actionné, la LED verte s'allume pour indiquer que c'est la position 180° qui a été choisie.</span></p>
+<p class="rvps6"><span class="rvts18">Si la LED verte est allumée, alors la LED rouge doit être éteinte et vice versa.</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18">Enregistrer le programme ArduBlock sous le nom de fichier Exercice4B_votrenomdegroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 4C</span></p>
+<p class="rvps6"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts18">Modifier le programme ArduBlock 4B de telle façon que le servomoteur se déplace de 10° à chaque fois que l'on appuie sur Bouton Poussoir rouge.</span></p>
+<p class="rvps6"><span class="rvts18">Lorsqu'on arrive à la position 180° le servomoteur ne se déplace plus même si on appuie sur Bouton Poussoir rouge.</span></p>
+<p class="rvps6"><span class="rvts18">Pour revenir à la position 0° on doit appuyer sur Bouton Poussoir vert. De plus, si on appuie sur Bouton Poussoir vert à tout moment quelle que soit la position du servomoteur, il retournera à la position 0°.</span></p>
+<p class="rvps6"><span class="rvts18">Pour indiquer visuellement la position du servomoteur on utilisera les 3 LEDs de la façon suivante :</span></p>
+<p class="rvps19"><span class="rvts18">• Lorsque le servomoteur est à la position 0°, seule la LED rouge est allumée.</span></p>
+<p class="rvps19"><span class="rvts18">• Lorsque le servomoteur est à la position 180°, seule la LED verte est allumée.</span></p>
+<p class="rvps19"><span class="rvts18">• Lorsque le servomoteur est à la position 90°, seule la LED jaune est allumée.</span></p>
+<p class="rvps19"><span class="rvts18">• Lorsque le servomoteur se situe entre la position 0° et 90°, seules les LEDs rouge et jaune sont allumées.</span></p>
+<p class="rvps19"><span class="rvts18">• Lorsque le servomoteur se situe entre la position 90° et 180°, seules les LEDs jaune et verte sont allumées.</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts49">Conseil</span><span class="rvts18"> : Pour simplifier la structure et la lecture du programme, utiliser plusieurs "sous-programmes" pour :</span></p>
+<p class="rvps23"><span class="rvts18">• déplacer le servomoteur.</span></p>
+<p class="rvps23"><span class="rvts18">• allumer la LED rouge uniquement</span></p>
+<p class="rvps23"><span class="rvts18">• allumer la LED verte uniquement</span></p>
+<p class="rvps23"><span class="rvts18">• allumer la LED jaune uniquement</span></p>
+<p class="rvps23"><span class="rvts18">• allumer les LEDs rouge et jaune uniquement</span></p>
+<p class="rvps23"><span class="rvts18">• allumer les LEDs jaune et verte uniquement</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18">Enregistrer le programme ArduBlock sous le nom de fichier Exercice4C_votrenomdegroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Fin de l'activité 4 sur l'utilisation du servomoteur, vous pouvez passer à l'activité suivante : </span><a class="rvts36" href="Activit5Potentiomtre.html">Activité 5 sur l'utilisation du potentiomètre</a><span class="rvts26">.</span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps6"><span class="rvts18"><br/></span></p>
+<p class="rvps5"><span class="rvts14">Créé avec HelpNDoc Personal Edition: </span><a class="rvts15" href="http://www.helpndoc.com/fr/tour-des-fonctionnalites">Créer des livres électroniques facilement</a></p>
+</div>
+	
+	</body>
+	
+</html>
+

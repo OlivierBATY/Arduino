@@ -1,0 +1,152 @@
+﻿<html>
+	
+<head>
+	<title>Activit&eacute; 1 - LEDs</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.6.0.345">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #8080FF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		if (top.frames.length == 0)
+		{
+			var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+			top.location.href = "index.html?" + sTopicUrl;
+		}
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+		{
+			top.FrameTOC.SelectTocItem("Activit1LEDs");
+		}
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_content">
+		
+<div class="rvps3"><table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-width: 0px;">
+<tr valign="top">
+<td style="border-width : 1px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-bottom: none; border-left: none;"><p class="rvps3"><img alt="" style="padding : 1px;" src="lib/NouvelElement25.png"/></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width : 1px; border-color: #666699; border-style: solid; border-top: none; border-right: none; border-bottom: none; border-left: none;"><p class="rvps4"><span class="rvts13">ACTIVIT</span><span class="rvts25">Ē</span><span class="rvts13"> 1</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps3"><span class="rvts37">Exercices sur l'utilisation des LEDs</span></p>
+<p class="rvps3"><span class="rvts26"><br/></span></p>
+<p class="rvps3"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 1A</span></p>
+<p class="rvps6"><span class="rvts27"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">On souhaite faire clignoter la LED verte qui est câblée à la broche 5 de la carte arduino.</span></p>
+<p class="rvps6"><span class="rvts26">L'éclairer 1 seconde, puis l'éteindre 1 seconde et recommencer indéfiniment.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Réaliser le programme ArduBlock ci-dessous :</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><img alt="" style="padding : 1px;" src="lib/NouvelElement103.png"/></p>
+<p class="rvps6"><span class="rvts33"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Enregistrer le programme ArduBlock de cet exercice dans votre répertoire personnel sur le réseau et sous le nom de fichier Exercice1A_nomdevotregroupe.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Cliquer sur le bouton transférer vers l'Arduino en haut à droite.</span></p>
+<p class="rvps6"><span class="rvts26">Le programme sera tout d'abord converti en C dans l’IDE d'Arduino, puis ensuite compiler et téléverser dans le micro-contrôleur de la carte Arduino.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps14"><img alt="" style="padding : 1px;" src="lib/NouvelElement105.png"/></p>
+<p class="rvps6"><span class="rvts26">L'exécution du programme s'effectue.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Modifications d'approfondissement</span></p>
+<p class="rvps19"><span class="rvts26">a) Modifier les délais en millisecondes pour éteindre et allumer la LED avec des temps plus rapide et plus long. Essayer 0,5 secondes et 2 secondes.</span></p>
+<p class="rvps19"><span class="rvts26">b) Modifier les délais en millisecondes pour éteindre et allumer la LED avec des temps différents. Éclairer pendant 1 seconde puis éteindre pendant 0,5 seconde.</span></p>
+<p class="rvps19"><span class="rvts26">c) Modifier le numéro de broche dans le programme de façon à faire clignoter la autre LED rouge puis le LED jaune.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts35">Questions à répondre sur copie pour l'Exercice 1A</span><span class="rvts34">.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Q1) En regardant les programmes en C générés pour chaque modification, identifier la liste de tous les changements opérés dans chacun des programmes en C.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Q2) Expliquer le rôle et le paramétrage des instructions suivantes :</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">a) </span><span class="rvts39">pinMode()</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">b) </span><span class="rvts39">digitalWrite()</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">c) </span><span class="rvts39">delay()</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Pour comprendre ces instructions et les commenter, vous pouvez consulter le </span><span class="rvts18">guide de référence</span><span class="rvts26"> du langage Arduino.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 1B</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">Créer le programme ArduBlock pour faire clignoter les LEDs verte et rouge mais en décalé : une LED allumée l'autre éteinte, et quand une s'allume l'autre s'éteint.</span></p>
+<p class="rvps6"><span class="rvts26">Durée d'éclairement identique pour les deux LEDs : 1 seconde.</span></p>
+<p class="rvps6"><span class="rvts26">Enregistrer le programme ArduBlock sous le nom Exercice1B_nomdevotregroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 1C</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">Avec les 3 LEDs, réaliser le chenillard suivant : </span></p>
+<p class="rvps19"><span class="rvts26">• La LED verte est allumée, les deux autres LEDs jaune et rouge sont éteintes.</span></p>
+<p class="rvps19"><span class="rvts26">• La LED jaune s'allume et les LEDs verte et rouge sont éteintes.</span></p>
+<p class="rvps19"><span class="rvts26">• La LED rouge s'allume et les LEDs jaune et verte sont éteintes.</span></p>
+<p class="rvps19"><span class="rvts26">• Et ça recommence indéfiniment : Rouge-verte-jaune-Rouge-verte-jaune-Rouge-verte-jaune...</span></p>
+<p class="rvps6"><span class="rvts26">Durée d'éclairement identique pour toutes les LEDs : 0,5 seconde.</span></p>
+<p class="rvps6"><span class="rvts26">Enregistrer le programme ArduBlock sous le nom Exercice1C_votrenomdegroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 1D</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">Modifier le programme du chenillard pour faire des allers retours : &nbsp;Rouge-verte-jaune-jaune-verte-rouge-Rouge-verte-jaune...</span></p>
+<p class="rvps6"><span class="rvts26">Durée d'éclairement identique pour toutes les LEDs : 0,3 seconde.</span></p>
+<p class="rvps6"><span class="rvts26">Enregistrer le programme ArduBlock sous le nom Exercice1D_votrenomdegroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts38">Exercice 1E</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts32">Objectif</span></p>
+<p class="rvps6"><span class="rvts26">Réaliser les séquences d'éclairement d'une LED verte et rouge afin de reproduire les feux de la police américaine.</span></p>
+<p class="rvps19"><span class="rvts26">• La LED verte est éteinte. Faire clignoter la LED rouge 5 fois (durée 50ms).</span></p>
+<p class="rvps19"><span class="rvts26">• La LED rouge est éteinte. Faire clignoter la LED verte 5 fois (durée 50ms).</span></p>
+<p class="rvps19"><span class="rvts26">• Faire clignoter 5 fois en même temps les LEDs verte et rouge (durée 50 ms).</span></p>
+<p class="rvps19"><span class="rvts26">• Recommencer ce cycle indéfiniment.</span></p>
+<p class="rvps6"><span class="rvts34">Aide</span><span class="rvts26"> : vous devez insérer des blocs « Répète » disponible dans la rubrique « Contrôles ».</span></p>
+<p class="rvps6"><span class="rvts26">Enregistrer le programme ArduBlock sous le nom Exercice1E_votrenomdegroupe.</span></p>
+<p class="rvps6"><span class="rvts26">Vérifier qu'il fonctionne correctement.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts35">Questions à répondre sur copie pour l'Exercice 1E</span><span class="rvts34">.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Q3) En regardant le programme en C généré, identifier l'instruction et les éléments en langage C qui correspondent à la fonction « Répète ». </span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Q4) Expliquer le rôle et le paramétrage de l'instruction suivante :</span></p>
+<p class="rvps20"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">- </span><span class="rvts39">for</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps20"><span class="rvts26">Pour comprendre cette instruction et la commenter, vous pouvez consulter le </span><span class="rvts18">guide de référence</span><span class="rvts26"> du langage Arduino</span><span class="rvts36">.</span></p>
+<p class="rvps20"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26">Fin de l'activité 1 sur l'utilisation des LEDs, vous pouvez passer à l'activité suivante : </span><a class="rvts36" href="Activit2BoutonsPoussoirs.html">Activité 2 sur l'utilisation des boutons poussoirs</a><span class="rvts26">.</span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps5"><span class="rvts14">Créé avec HelpNDoc Personal Edition: </span><a class="rvts15" href="http://www.helpndoc.com/fr/tour-des-fonctionnalites">Créer des livres électroniques EPub facilement</a></p>
+</div>
+	
+	</body>
+	
+</html>
+
